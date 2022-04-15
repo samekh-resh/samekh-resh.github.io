@@ -10,20 +10,36 @@
 </head>
 <body>
     <div class="container">
-        <nav>
-            <h1>DID YOU DO IT YET: DYDIY</h1>
-        </nav>
+    
+        <section class="row">
+            <nav class="d-flex justify-content-center align-items-center">
+                <h1 class="">DID YOU DO IT YET: DYDIY</h1>
+            </nav>
+        </section>
+        <section class="row d-flex justify-content-center">
+            <h2 class="d-flex justify-content-center align-items-center">SIGN UP PAGE</h2>
+        </section>
+        <!-- the idea is to have two boxes on either side, rotating through images of chores. so that measn I would need a div to be a ro then I would need to have three sections inside that are each a column -->
+        <section class="d-flex justify-content-center align-items-center">
+            <form action="">
+                <section class="mb-4">
+                    <label for="userName" class="form-label">user name</label>
+                    <input type="text" name="userName" class="form-control">
+                </section>
+                <section class="mb-4">
+                    <label for="email" class="form-label">email</label>
+                    <input type="text" name="email" class="form-control">
+                </section>
+                <section class="mb-4">
+                    <label for="password" class="form-label">password</label>
+                    <input type="text" name="password" class="form-control">
+                </section>
+                <section>
+                    <input type="submit" class="btn btn-success">
+                </section>
+    
+            </form>
+        </section>
     </div>
-    <h2>SIGN UP</h2>
-
-    <form action="">
-        <label for="name">name</label>
-        <input type="text" name="name">
-        <label for="email">email</label>
-        <input type="text" name="email">
-        <label for="password">password</label>
-        <input type="text" name="password">
-        <input type="submit">
-    </form>
 </body>
 </html>
