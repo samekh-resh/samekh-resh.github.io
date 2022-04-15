@@ -13,6 +13,13 @@ nav{
     margin-bottom: 2rem;
 }
 
+h2{
+    border: 1px solid rgb(158, 182, 100);
+    background-color: rgb(158, 182, 100);
+    font-size: 2em;
+    padding: 1em;
+}
+
 .indexBox{
     height:4em;
     overflow-y: scroll;
@@ -24,4 +31,10 @@ nav{
 .logOrSign{
     font-size: 4em;
     align-items: center;
+}
+
+.designElements{
+    height: 100%;
+    width: 10%;
+    border: 1px solid black;
 }
