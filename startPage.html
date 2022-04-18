@@ -11,9 +11,11 @@
 <body>
 
     <div class="container">
-        <nav>
-            <h1>DID YOU DO IT YET: DYDIY</h1>
-        </nav>
+        <section class="row">
+            <nav class="d-flex justify-content-center align-items-center">
+                <h1 class="">DID YOU DO IT YET: DYDIY</h1>
+            </nav>
+        </section>
     </div>
 
     <h2>START PAGE</h2>
@@ -23,17 +25,21 @@
             <section class="col">
                 <h3>STARTING CHORE LIST</h3>
                 <form action="">
-                    <label for="">Create choreCode</label>
-                    <input type="text" name="choreCode" required>
-                    <input type="submit">
+                    <section class="mb-4">
+                        <label for="createChoreCode" class="form-label"> Create Chore Code</label>
+                        <input type="text" name="createChoreCode" class="form-control" id="createChoreCode">
+                    </section>
+                    <input type="submit" class="btn btn-success">
                 </form>
             </section>
             <section class="col">
                 <h3>JOINING CHORE LIST</h3>
                 <form action="">
-                    <label for="">enter choreCode</label>
-                    <input type="text" name="choreCode" required>
-                    <input type="submit">
+                    <section class="mb-4">
+                        <label for="enterChoreCode" class="form-label"> Enter Chore Code</label>
+                        <input type="text" name="enterChoreCode" class="form-control" id="enterChoreCode">
+                    </section>
+                    <input type="submit" class="btn btn-success">
                 </form>
             </section>
         </div>

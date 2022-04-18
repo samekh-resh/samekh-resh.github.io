@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+    <title>Add Chores PAGE</title>
+</head>
+<body>
+    <div class="container">
+        <section class="row">
+            <nav class="d-flex justify-content-center align-items-center">
+                <h1 class="">DID YOU DO IT YET: DYDIY</h1>
+            </nav>
+        </section>
+    </div>
+    
+    <h2>Create Your Chore List</h2>
+
+    <div class="container">
+
+        <!-- one row, two coloumns, second column split into two rows.  -->
+
+        <section class="row d-flex justify-content-evenly">
+            <section class="col-4">
+                <form action="">
+                    <section class="mb-4">
+                        <label for="chore" class="form-label">input chore</label>
+                        <input type="text" name="userName" class="form-control">
+                    </section>
+                    <section class="mb-4">
+                        <button class="btn btn-primary btnThatAddsChores"> add another chore</button>
+                        <!-- when this button is clicked, it will created another input, with the idea being that you can add many chores at once -->
+                    </section>
+                    
+                    <section>
+                        <input type="submit" class="btn btn-success">
+                    </section>
+                </form>
+            </section>
+            <section class="col-5">
+                <div class="row d-flex justify-content-evenly">
+                    <section class="col-5 choreButton">
+                        <!-- https://stackoverflow.com/questions/50746868/how-to-add-input-fields-on-button-click this link is needed as a reference -->
+                        <a href="chorePage.html">
+                            <p> chore page</p>
+                        </a>
+                    </section>
+                    <section class="col-5 choreButton">
+                        <a href="yourChosenTasks.html">
+                            <p> your chosen tasks</p>
+                        </a>
+                    </section>
+                    <section class="col-5 choreButton">
+                        <a href="tasksProgress.html">
+                            <p> task progress</p>
+                        </a>
+                    </section>
+                
+                    <section class="col-5 choreButton">
+                        <a href="tasksCompletePage.html">
+                            <p> tasks completed</p>
+                        </a>
+                    </section>
+                </div>
+                <!-- have some cute lil section about this is where you add the chores, if you want.  -->
+
+
+            </section>
+            
+
+        </section>
+    </div>
+    
+</body>
+</html>
