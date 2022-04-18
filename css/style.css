@@ -1,11 +1,16 @@
+/* make variables for color names that need to be repeated
+perhaps for sizing purposes too */
+
 *{
     box-sizing: border-box;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-family: "Mulish";
 }
+
 
 li{
     list-style-type: none;
@@ -54,12 +59,13 @@ h2{
 .theChoreList{
     height: 300px;
     overflow: scroll;
+    font-family: "Quicksand";
 }
 
 .choreButton{
     background-color: rgb(143, 89, 89);
     height: 100px;
-    padding: 1em;
+    padding: 2em;
     font-size: 2vw;
     border: 1px solid rgb(255, 255, 255);
     margin-bottom: 1em;
@@ -81,7 +87,16 @@ h2{
     padding: 1.5em;
 }
 
-
+.individualChore:hover{
+    background-color: white;
+}
+.choreButton:hover {
+    background-color: aliceblue;
+    color: yellow;
+}
+a:hover {
+    color: rgb(34, 34, 23);
+}
 
 /* span:hover{
     height: 2em;
