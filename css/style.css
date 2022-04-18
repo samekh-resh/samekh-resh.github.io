@@ -4,6 +4,13 @@
 
 a{
     text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+    margin: 0px;
+    margin-bottom: 1em;
 }
 
 body{
@@ -22,6 +29,7 @@ h2{
     background-color: rgb(158, 182, 100);
     font-size: 2em;
     padding: 1em;
+    margin-bottom: 1em;
 }
 
 .indexBox{
@@ -43,8 +51,13 @@ h2{
     
 }
 
+.theChoreList{
+    height: 300px;
+    overflow: scroll;
+}
+
 .choreButton{
-    background-color: white;
+    background-color: rgb(143, 89, 89);
     height: 100px;
     padding: 1em;
     font-size: 2vw;
@@ -55,3 +68,22 @@ h2{
     justify-content: center;
     align-items: center;
 }
+
+
+
+.individualChore{
+    /* we'll have to change the stylings, the idea is to have each be it's own individual box. */
+    background-color: rgb(37, 168, 172);
+    border-radius: 15% 15% 5% 5%;
+    width: 50%;
+    font-size: 1.5em;
+    height:5em;
+    padding: 1.5em;
+}
+
+
+
+/* span:hover{
+    height: 2em;
+    width: 3em;
+} */

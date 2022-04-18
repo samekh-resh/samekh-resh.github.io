@@ -30,12 +30,13 @@
                 <!-- four boxes, chosen tasks, tasks in progress, tasks completed -->
                 <div class="col">
                     <h3>LIST OF CHORES</h3>
-                    <!-- //or instead of this being an unordered list, it could  -->
-                    <ul>
-                        <li>take out the trash <span class="material-icons plus">&#xe148;</span></li>
-                        <li>mow the lawn <span class="material-icons plus">&#xe148;</span></li>
-                        <li>mop kitchen floor <span class="material-icons plus">&#xe148;</span></li>
-                        <li>clean your bedroom <span class="material-icons plus">&#xe148;</span></li>
+                    <!-- //or instead of this being an unordered list, it could a bunch of boxes appearing next to one another? would definitely need to utilize flexbox for this and take off the width sizing and apply flexbox to it.  -->
+                    <!-- yeah and instead of the icon being a span it needs to be a block level element and always gets its own space, at the bottom. if using flexbox, you may have to undo the changes for design purposes and integrate new ones. don't forget, we have to focus on media queries -->
+                    <ul class="theChoreList">
+                        <li class="individualChore">take out the trash <span class="material-icons plus">&#xe148;</span></li>
+                        <li class="individualChore">mow the lawn <span class="material-icons plus">&#xe148;</span></li>
+                        <li class="individualChore">mop kitchen floor <span class="material-icons plus">&#xe148;</span></li>
+                        <li class="individualChore">clean your bedroom <span class="material-icons plus">&#xe148;</span></li>
                     </ul>
                 </div>
 
