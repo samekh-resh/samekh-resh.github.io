@@ -24,7 +24,9 @@ body{
 
 nav{
     height:300px;
-    background-color: aliceblue;
+    background-image: url(https://images.unsplash.com/photo-1518976024611-28bf4b48222e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGlzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60);
+    background-size: cover;
+    /* background-color: aliceblue; */
     justify-content: center;
     margin-bottom: 2rem;
 }
