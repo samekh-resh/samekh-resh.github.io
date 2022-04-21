@@ -77,8 +77,6 @@ h2{
     align-items: center;
 }
 
-
-
 .individualChore{
     /* we'll have to change the stylings, the idea is to have each be it's own individual box. */
     background-color: rgb(37, 168, 172);
@@ -100,6 +98,11 @@ a:hover {
     color: rgb(34, 34, 23);
 }
 
+/* p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
 /* span:hover{
     height: 2em;
     width: 3em;
