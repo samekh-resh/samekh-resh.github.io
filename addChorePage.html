@@ -27,20 +27,21 @@
 
         <section class="row d-flex justify-content-evenly">
             <section class="col-4">
-                <form action="">
+                <form id="taskSubmissionForm" action="">
                     <section class="mb-4">
                         <label for="chore" class="form-label">input chore</label>
                         <input type="text" name="userName" class="form-control">
                     </section>
-                    <section class="mb-4">
-                        <button class="btn btn-primary btnThatAddsChores"> add another chore</button>
-                        <!-- when this button is clicked, it will created another input, with the idea being that you can add many chores at once -->
-                    </section>
                     
-                    <section>
-                        <input type="submit" class="btn btn-success">
-                    </section>
+                    
                 </form>
+                <section class="mb-4">
+                    <input type="button" class="btn btn-primary" id="btnThatAddsChores" placeholder="add another chore">
+                    <!-- when this button is clicked, it will created another input, with the idea being that you can add many chores at once -->
+                </section>
+                <section>
+                    <input type="submit" form="taskSubmissionForm"class="btn btn-success">
+                </section>
             </section>
             <section class="col-5">
                 <div class="row d-flex justify-content-evenly">
@@ -75,6 +76,6 @@
 
         </section>
     </div>
-    
+    <script src="js/script.js"></script>
 </body>
 </html>
